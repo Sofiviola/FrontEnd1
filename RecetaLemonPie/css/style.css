@@ -1,0 +1,29 @@
+header {
+    background-color: beige;
+    background-image: url(../img/lemon-pie.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    opacity: 0.9;
+}
+.EstiloNav {
+list-style: none;
+}
+.SubrayadoNav {
+    text-decoration: none;
+}
+h1 {
+    color: whitesmoke;
+    font-size: 3em;
+}
+.ParrafoHeader {
+    color: whitesmoke;
+    font-weight: bold;
+}
+main {
+    color: grey
+}
+span {
+    color: orange;
+    text-decoration: underline;
+}

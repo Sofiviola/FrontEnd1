@@ -1,0 +1,58 @@
+header {
+    background-color:#dddddd;
+    margin-top: 0px;
+}
+.fotocv {
+    display: block; 
+    margin: auto;
+}
+body {
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+.header-h1 {
+    color: #1F497D; 
+    text-align: center;
+    letter-spacing: 0.25em;
+     word-spacing: 1em; 
+     background-color: #bfbfbf; 
+    }
+main {
+text-align: justify;
+width: 80%;
+margin: 0% 10%;
+}
+section{
+    margin-bottom: 45px;
+    line-height: 25px;
+}
+.section-datos {
+    margin-top: 60px;
+}
+h2 {
+    background-color: #bfbfbf;
+    color: #804f3d; 
+    word-spacing: 1em;
+    letter-spacing: 0.25em; 
+    font-size: 18px;
+}
+li {
+     list-style-type:disc
+    }
+span {
+    font-weight: bold;
+}
+footer {
+    background-color:#1F497D;
+    margin: 0px; 
+    margin-bottom: -1000px;
+}
+footer p{
+    text-align: center; 
+    text-transform: uppercase; 
+    color: white;;
+    font-size: 24px;
+}    
+.footer-imagen {
+    height: 18px;
+   }

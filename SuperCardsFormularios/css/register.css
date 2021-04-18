@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal
+  }
+  
+  .discount {
+    background-color: #1cd1b0;
+   
+  }
+  .discount p {
+    height: 23px;
+    padding: 2px 0px 3px 20px;
+  }
+  header {
+    background-color: #00669f;
+    box-shadow: 0px 5px 2px #22222233;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    height: 80px;
+  }
+  
+  h1 {
+    color: #ffffff;
+    padding: 23px 0px 23px 117px;
+    font-size: 30px;
+  }
+  header > img {
+    position: absolute;
+    width: 114px;
+    height: 75px;
+    padding: 3px 20px 3px 10px;
+  }
+.register{
+    text-align: center;
+    margin: 80px 603px 190px 410px;
+}
+h3{
+  font-size: 62px;
+  Width: 357px;
+  height: 48px;
+  font-weight: 700;
+ color: #333333;
+}
+form{
+    padding: 50px;
+}
+input, select{
+  Width: 520px;
+  Height:40px;
+  margin-top: 20px;
+  color: #000000;
+  padding-left: 9px;
+  border: 1.53407px solid
+}
+input::placeholder {
+    color:#000000;
+}
+
+div > input {
+    border-radius: 23px;
+    border: none;
+    width: 240px;
+    font-size: 18px;
+    position: relative;
+   }
+ .button-reset{
+   background-color: #888888;
+   
+   color: #FFFFFF;
+   }
+ .button-submit {
+   background-color: #1CD1B0;
+   color: #000000;
+   position: absolute;
+   left: 734px;
+   bottom: 75px;
+ }
+ .QuestionLogin{
+text-align: center;
+width: 500px;
+padding-left: 140px;
+ }
+ p > a {
+     text-decoration: none;
+     color: #000000;
+ }
+ span{
+     color: #00669F;
+     font-size: 21,48px;
+ }
+  footer > p {
+    background-color: #00669f;
+    text-align: center;
+    color: #fff;
+    height: 61px;
+  font-size: 19px;
+  padding: 21px 0px 21px;
+  }

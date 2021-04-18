@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("css/contact.css");
+@import url("register.css");
+@import url("login.css");
+@import url("harley.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.discount {
+  background-color: #1cd1b0;
+ 
+}
+.discount p {
+  height: 23px;
+  padding: 2px 0px 3px 20px;
+}
+header {
+  background-color: #00669f;
+  box-shadow: 0px 5px 2px #22222233;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+height: 80px;
+}
+
+header > img {
+  position: absolute;
+  width: 114px;
+  height: 75px;
+  padding: 3px 20px 3px 10px;
+}
+h1 {
+  color: #ffffff;
+  padding: 23px 0px 23px 117px;
+  font-size: 30px;
+} 
+nav {
+  background-color: #001D2D;
+  text-align: right;
+  height: 40px;
+  padding-right: 10px;
+}
+nav > ul > li {
+  display: inline-block;
+  color: #FFFFFF;
+  padding:10px 11px 3px 20px ;
+}
+nav > ul > li > a {
+text-decoration: none;
+color: #FFFFFF;
+}
+main {
+  margin: 90px 0px 90px 0px;
+}
+section {
+  text-align: center;
+}
+
+.card {
+  max-width: 300px;
+  margin: 30px;
+  box-shadow: 0px 5px 2px #22222233;
+  display: inline-block;
+}
+
+.card-fondo-batman {
+  height: 190px;
+  background-image: url("../img/bg-batman.jpg");
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
+  position: relative;
+}
+.card-fondo-superman {
+  height: 190px;
+  background-image: url("../img/bg-superman.jpg");
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
+  position: relative;
+}
+.card-fondo-harley {
+  height: 190px;
+  background-image: url("../img/bg\ 1.svg");
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
+  position: relative;
+}
+
+.card-cora {
+  color: red;
+  font-size: 30px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.card-info {
+  position: relative;
+  text-align: center;
+  background-color: #f3f3f3;
+}
+.card-info > img {
+  position: absolute;
+  top: -80px;
+  left: 75px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+h2 {
+  padding-top: 90px;
+}
+.card-info > p {
+  text-align: left;
+  padding: 16px;
+}
+
+.button-VerMas {
+  background-color: #00669f;
+  padding: 15px 37px;
+  margin: 20px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+.BotonFijo{
+  background-color:  #00669F;
+  color: #F3F3F3;
+  border-radius: 50%;
+width: 60px;
+height: 60px;
+text-align: center;
+position: fixed;
+right: 25px;
+top: 50%;
+font-style: normal;
+font-weight: normal;
+font-size: 53px;
+}
+
+footer > p {
+  background-color: #00669f;
+  text-align: center;
+  color: #fff;
+  height: 61px;
+font-size: 19px;
+padding: 21px 0px 21px;
+}

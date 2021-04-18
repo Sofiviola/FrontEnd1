@@ -4,9 +4,6 @@
     box-sizing: border-box;
     font-family: roboto, sans-serif;
 }
-main {
-    margin: 40px 480px;
-}
 
 .Desc {
     background-color: #1CD1B0;
@@ -19,7 +16,6 @@ header {
     height: 60px;
     padding:10px 0px 30px 30px;
     position: sticky;
-    position:sticky;
     top:0;
     z-index: 999;
     width: 100%;
@@ -28,6 +24,10 @@ h1 {
     font-weight: normal;
     color: #FFFFFF;
 }
+main {
+    margin: 40px 480px;
+}
+
 .Imagen-carta{
     background-size: 165%;
     border-top-left-radius: 20px;
@@ -119,6 +119,7 @@ a {
 }
 .carta {
     margin-bottom: 50px;
+    display: inline-block;
 }
 
 .Boton{

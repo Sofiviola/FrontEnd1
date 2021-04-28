@@ -5,3 +5,4 @@ Profesores: Jonathan González y Gabriela Mancini.
 ◉ Cv Bataman: https://sofiviola.github.io/FrontEnd1/CvBatman/ <br>
 ◉ Cv Propio: https://sofiviola.github.io/FrontEnd1/CvPropio/ <br>
 ◉ Card super heroes: https://sofiviola.github.io/FrontEnd1/CardSuperHeroes/ <br>
+◉ Super heroes con formularios: https://sofiviola.github.io/FrontEnd1/SuperCardsFormularios/ <br>

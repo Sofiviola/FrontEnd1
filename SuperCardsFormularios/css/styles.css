@@ -3,6 +3,7 @@
 @import url("register.css");
 @import url("login.css");
 @import url("harley.css");
+@import url("formulario.css");
 * {
   padding: 0;
   margin: 0;
@@ -138,6 +139,7 @@ top: 50%;
 font-style: normal;
 font-weight: normal;
 font-size: 53px;
+text-decoration: none;
 }
 
 footer > p {

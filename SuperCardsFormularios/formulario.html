@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresar</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+
+<body>
+    <div class="discount">
+        <p>20% de descuento en todos los productos!</p>
+    </div>
+    <header>
+        <img src="img/logo 1.png" alt="Logo">
+        <h1>Nombre Tienda</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="contact.html">Contacto</a></li>
+            <li> <a href="register.html">Registrarme</a></li>
+            <li> <a href="login.html">Ingresar</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <div class="FormDate">
+                <h3> Añadí tu super! </h3>
+                <p>Agregá tu personaje favorito completando las opciones.</p>
+                <form action="#" method="POST">
+                    <div class="column">
+                        <label for="nombre" >*Nombre</label>
+                        <input type="text" id="nombre" name="nombre" tabindex="1">
+                        <label for="fecha">Fecha</label>
+                        <input type="date" id="fecha" name="fecha"  tabindex="3">
+                        <label for="descripcion"></label>
+                        <textarea name="descripcion" id="descripcion" placeholder="Descripción"  tabindex="5"></textarea>
+                    </div>
+                    <div class="column">
+                        <label for="especie">*Especie</label>
+                        <select name="Especie" id="Especie" placeholder="Especie" value="Especie" tabindex="2"> Especie
+                            <option value="Especie">Especie</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <label for="doc">Agregar Foto</label>
+                        <input type="file" id="foto" accept=".jpg, .pdf, .png" name="foto"  tabindex="4">
+                        <div>
+                            <p class="titleCheckRadio">Poderes</p>
+                            <label for="superpoder1" class="optionCheck">
+                                <input type="checkbox" id="superpoder1" name="superpoder2" value="Volar"  tabindex="6">
+                                Volar</label>
+                            <label for="superpoder2" class="optionCheck">
+                                <input type="checkbox" id="superpoder2" name="superpoder2" value="SuperInteligencia"  tabindex="7">
+                                SuperInteligencia</label>
+                            <label for="superpoder3" class="optionCheck">
+                                <input type="checkbox" id="superpoder3" name="superpoder3" value="Vista de rayo láser"  tabindex="8">
+                                Vista de rayo laser</label>
+                            <label for="superpoder4" class="optionCheck">
+                                <input type="checkbox" id="superpoder4" name="superpoder4" value="Billetera gorda"  tabindex="9">
+                                Billetera gorda</label>
+                            </div>
+                            <hr>
+                            <div>
+                            <p class="titleCheckRadio">Tipo de personajes</p>
+                            <label for="heroe" class="optionRadio">
+                                <input type="radio" id="heroe" name="heroe" value="heroe"  tabindex="10">
+                                Héroe / Heroina 
+                            </label>
+                            <label for="villano" class="optionRadio">
+                            <input type="radio" id="villano" name="villano" value="villano"  tabindex="11">
+                            Villano / Villana
+                         </label>
+                        </div>
+                    </div>
+                    <input type="submit" class="button" value="Añadir" tabindex="12">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+
+</html>

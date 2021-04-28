@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal
+  }
+  
+  .discount {
+    background-color: #1cd1b0;
+   
+  }
+  .discount p {
+    height: 23px;
+    padding: 2px 0px 3px 20px;
+  }
+  header {
+    background-color: #00669f;
+    box-shadow: 0px 5px 2px #22222233;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    height: 80px;
+  }
+  
+  h1 {
+    color: #ffffff;
+    padding: 23px 0px 23px 117px;
+    font-size: 30px;
+  }
+  header > img {
+    position: absolute;
+    width: 114px;
+    height: 75px;
+    padding: 3px 20px 3px 10px;
+  }
+  nav {
+    background-color: #001D2D;
+    text-align: right;
+    height: 40px;
+    padding-right: 10px;
+  }
+  nav > ul > li {
+    display: inline-block;
+    color: #FFFFFF;
+    padding:10px 11px 3px 20px ;
+  }
+  nav > ul > li > a {
+  text-decoration: none;
+  color: #FFFFFF;
+  }
+  main{
+    margin-top: 40px;
+  }
+  .FormDate{
+    background-color: #00669f;
+    margin: 1% auto 5%;
+    width: 904px;
+    height: 832px;
+    border-radius: 49.09px;
+    padding: 1%;
+  }
+  section>div>h3 {
+    font-size: 40px;
+    text-align: center;
+    color:#FBFFFD;
+    padding: 7px;
+  }
+  section>div>p {
+    font-size: 20px;
+    text-align: center;
+    color:#FBFFFD;
+  }
+ form{
+   margin: auto;
+   width: 90%;
+ }
+.column{
+  display:inline-grid;
+  width: 45%;
+  margin: 2%;
+}
+label{
+  font-size: 20px;
+  text-align: left;
+  color: #FFFFFF;
+  margin: 10px 0px;
+}
+input#nombre, input#fecha, select#Especie {
+    background: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 15.3407px;
+    width: 343px;
+    height: 63px;
+  }
+textarea {
+    margin-top: 10px;
+    width: 343px;
+    height: 307px;
+    background: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15.3407px;
+    padding: 20px 10px;
+    font-size: 20px;
+}
+input#foto{
+  border-radius: 15.3407px;
+  padding: 10px 0px;
+}
+.titleCheckRadio{
+  font-size: 20px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 15px;
+}
+.optionCheck{font-weight: 300;
+    font-size: 19px;
+    line-height: 25px;
+    text-align: left;
+    color: #FFFFFF;
+    display: block;
+    padding-bottom: 10px;}
+  .optionRadio{
+      font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+    color: #FFFFFF;
+    display: block;
+    padding-bottom: 10px;
+    }
+
+  .button{
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 10px 50px;
+    background: rgb(28, 209, 176);
+    color: rgb(0, 0, 0);
+    border-radius: 23px;
+    border: none;
+    width: 50%;
+    height: 84px;
+    text-align: center;
+    margin-left: 28%;
+    margin-top: 35px;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  footer > p {
+    background-color: #00669f;
+    text-align: center;
+    color: #fff;
+    height: 61px;
+  font-size: 19px;
+  padding: 21px 0px 21px;
+  }
